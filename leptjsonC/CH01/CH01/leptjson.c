@@ -2,7 +2,7 @@
 #include <assert.h>      //assert()
 #include <stdlib.h>      //NULL
 
-//只提供两个API,其他函数用static实现库的封装
+//只提供两个API,其他函数用static实现库的封装//zx
 
 //断言字符串c的首字符是ch，并将字符向后移动一位
 #define EXPECT(c, ch) do{ assert(*c->json==(ch)); \
